@@ -1,0 +1,16 @@
+#first {
+    background-color: green;
+    width: 500px;
+    height: 300px;
+}
+
+#background {
+    height: 100vh;
+    background: url(../img/rick-and-morty-art.webp);
+    background-position: 0 0;
+}
+
+#animacja{
+    background-color: blue;
+    height: 300px;
+}
