@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+
+<body>
+    <h2>aktualny kurs botcoin do PLN</h2>
+    <h3>Kupno</h3>
+    <span id="buy-price"></span><i class="fas fa-minus-square" id="buy-arrow"></i>
+    <h3>Sprzedaż</h3>
+    <span id="sell-price"></span><i class="fas fa-minus-square" id="sell-arrow"></i>
+    <div class="control-buttons">
+        <h4>Odświeżaj kurs co:</h4>
+        <button value="5000" class="control-button">5 sekund</button>
+        <button value="10000" class="control-button">10 sekund</button>
+        <button value="30000" class="control-button">30 sekund</button>
+        <button value="60000" class="control-button">60 sekund</button>
+        <p>Odświeżanie co:<span id="refresh"></span></p>
+    </div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
